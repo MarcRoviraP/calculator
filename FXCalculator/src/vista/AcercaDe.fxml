@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.AcercaDeController">
+   <children>
+      <ImageView fitHeight="122.0" fitWidth="92.0" layoutX="135.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@miniatura.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnCerrar" layoutX="269.0" layoutY="292.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="67.0" text="Cerrar" textAlignment="CENTER" />
+      <Text fx:id="textTitulo" layoutX="85.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Calculadora" textAlignment="CENTER" wrappingWidth="179.13000106811523">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="textVersion" layoutX="85.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="v.1.0" textAlignment="CENTER" wrappingWidth="179.13000106811523">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="textVersion1" layoutX="6.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Copyright © 2024 Marc Rovira Perello" textAlignment="CENTER" wrappingWidth="337.13000106811523" />
+   </children>
+</AnchorPane>

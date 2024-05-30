@@ -1,0 +1,73 @@
+
+
+#btnArchivo,#btnAyuda,#btnEdicion{
+
+	-fx-background-color: #181A1B;
+}
+#label{
+	-fx-font-family: 'Calculator'; /* Nombre de tu fuente cargada */
+	-fx-background-color: #ffffff;
+}
+#panelMain,#panelHead{
+	
+	-fx-background-color:  #181A1B;
+}
+#menu{
+	
+	-fx-background-color:  #181A1B;
+}
+
+.menu .label {
+    -fx-text-fill: white; 
+}
+.menu-item .label {
+    -fx-text-fill: black; 
+}
+
+
+/*Botones de memoria*/
+#memory {
+	-fx-background-color: linear-gradient(to bottom, #ffffff, #87837A);
+	
+}
+#memory:hover {
+	-fx-background-color: linear-gradient(to bottom, #87837A, #757575);
+	
+}
+/*Botones de limpieza*/
+#clear {
+
+	-fx-text-fill: white;
+	-fx-background-color: linear-gradient(to bottom, #0074ff, #0018ff);
+}
+#clear:hover {
+
+	-fx-text-fill: white;
+	-fx-background-color: linear-gradient(to bottom, #66ccff, #0018ff);
+}
+/* Botones normales */
+#normal {
+	-fx-background-color: white;
+
+}
+#normal:hover {
+	-fx-background-color: #BEBEBE;
+
+}
+/*Boton igual */
+#btnIgual {
+-fx-background-color: #ff9933;
+-fx-text-fill: white;
+}
+#btnIgual:hover {
+-fx-background-color: #cc6600;
+-fx-text-fill: white;
+}
+.button{	
+	-fx-text-fill: black;
+}
+
+#text{
+-fx-fill: white;	
+}
+
