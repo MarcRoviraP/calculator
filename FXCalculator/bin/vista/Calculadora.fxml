@@ -36,7 +36,7 @@
 				</Menu>
 				<Menu fx:id="menuIdioma" mnemonicParsing="false" text="%form.idioma">
 					<items>
-						<MenuItem fx:id="español" mnemonicParsing="false" text="%form.es" />
+						<MenuItem fx:id="espanyol" mnemonicParsing="false" text="%form.es" />
 						<MenuItem fx:id="valenciano" mnemonicParsing="false" text="%form.ca" />
 						<MenuItem fx:id="ingles" mnemonicParsing="false" text="%form.en" />
                   <MenuItem fx:id="japones" mnemonicParsing="false" text="\%form.ja" />

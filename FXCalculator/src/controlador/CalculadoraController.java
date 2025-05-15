@@ -125,7 +125,7 @@ public class CalculadoraController implements Initializable {
 	private Button btnSigno;
 
 	@FXML
-	private MenuItem español;
+	private MenuItem espanyol;
 
 	@FXML
 	private MenuItem ingles;
@@ -221,7 +221,7 @@ public class CalculadoraController implements Initializable {
 
 		// Accions del menu
 
-		español.setOnAction((event) -> setIdioma("es"));
+		espanyol.setOnAction((event) -> setIdioma("es"));
 		valenciano.setOnAction((event) -> setIdioma("ca"));
 		ingles.setOnAction((event) -> setIdioma("en"));
 		japones.setOnAction((event) -> setIdioma("ja"));
@@ -229,7 +229,7 @@ public class CalculadoraController implements Initializable {
 		// Botons idiomes
 
 		valenciano.textProperty().bind(I18N.createStringBinding("form.ca"));
-		español.textProperty().bind(I18N.createStringBinding("form.es"));
+		espanyol.textProperty().bind(I18N.createStringBinding("form.es"));
 		ingles.textProperty().bind(I18N.createStringBinding("form.en"));
 		japones.textProperty().bind(I18N.createStringBinding("form.ja"));
 
